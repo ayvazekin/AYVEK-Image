@@ -1,120 +1,224 @@
-# AYVEK-Image
+# 🎨 AYVEK-Image
 
-AI-powered image processing and generation platform with Next.js, Radix UI components, and advanced image manipulation features.
+> **Advanced AI-Powered Image Processing & Generation Platform**
 
-<div align="center">
+[![TypeScript](https://img.shields.io/badge/TypeScript-97%25-3178c6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react)](https://react.dev/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-purple?style=flat-square)](https://ayvek-image.vercel.app)
 
-**[Live Demo](https://ayvek-image.vercel.app)** • **[GitHub](https://github.com/ayvazekin/AYVEK-Image)**
+---
 
-![TypeScript](https://img.shields.io/badge/TypeScript-97%25-blue?style=flat-square)
-![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square)
-![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+## ✨ Overview
 
-</div>
+**AYVEK-Image** is a cutting-edge web application that combines modern AI capabilities with intuitive UI/UX to deliver powerful image processing and generation features. Built with Next.js 16, React 19, and TypeScript, it provides a seamless experience for users to transform, enhance, and create stunning visuals.
 
-## ✨ Features
+### 🎯 Key Highlights
 
-- **Advanced Image Processing** — Real-time image manipulation and enhancement
-- **AI-Powered Generation** — Replicate API integration for intelligent image generation
-- **Component Library** — 30+ Radix UI components for consistent design
-- **Responsive Design** — Mobile-first approach with Tailwind CSS
-- **Dark Mode Support** — Next Themes for seamless theme switching
-- **Form Validation** — React Hook Form with Zod schema validation
-- **Interactive Charts** — Recharts for data visualization
+- 🤖 **AI-Powered Processing** - Leverage advanced AI models for intelligent image manipulation
+- ⚡ **Lightning-Fast Performance** - Optimized for speed with modern web technologies
+- 🎨 **Beautiful UI** - Radix UI components with smooth animations powered by Framer Motion
+- 📱 **Fully Responsive** - Works flawlessly on desktop, tablet, and mobile devices
+- 🌙 **Dark Mode Support** - Built-in theme switching with next-themes
+- 📊 **Advanced Analytics** - Integrated with Vercel Analytics
+- 🔐 **Type-Safe** - 100% TypeScript for reliability and developer experience
 
-## 🚀 Quick Start
+---
+
+## 🚀 Features
+
+### Core Capabilities
+- ✅ Image upload and processing
+- ✅ AI-powered image generation
+- ✅ Real-time image preview
+- ✅ Multiple export formats
+- ✅ Batch processing
+- ✅ Advanced filtering options
+
+### Technical Excellence
+- ✅ Server-side rendering (SSR) with Next.js
+- ✅ Responsive design system
+- ✅ Form validation with React Hook Form & Zod
+- ✅ Rich component library (40+ Radix UI components)
+- ✅ Carousel functionality with Embla
+- ✅ Date picking capabilities
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Framework**: [Next.js 16](https://nextjs.org/) - React framework for production
+- **Runtime**: [React 19](https://react.dev/) - UI library
+- **Language**: [TypeScript 5](https://www.typescriptlang.org/) - Type-safe JavaScript
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/) - Utility-first CSS framework
+
+### UI & Components
+- **Component Library**: [Radix UI](https://www.radix-ui.com/) - Unstyled accessible components
+- **Icons**: [Lucide React](https://lucide.dev/) - Beautiful icon library
+- **Animations**: [Framer Motion](https://www.framer.com/motion/) - Production-ready animations
+- **Toast Notifications**: [Sonner](https://sonner.emilkowal.ski/) - React toast library
+
+### Forms & Data
+- **Form Management**: [React Hook Form](https://react-hook-form.com/) - Performant form handling
+- **Validation**: [Zod](https://zod.dev/) - TypeScript-first schema validation
+- **Date Handling**: [date-fns](https://date-fns.org/) - Modern date utility library
+
+### AI & Media
+- **AI Integration**: [Replicate](https://replicate.com/) - Run open-source models in the cloud
+- **Carousel**: [Embla Carousel React](https://www.embla-carousel.com/) - Flexible carousel component
+- **Charts**: [Recharts](https://recharts.org/) - Composable charting library
+
+### Utilities
+- **Class Management**: [clsx](https://github.com/lukeed/clsx) & [Tailwind Merge](https://github.com/dcastil/tailwind-merge)
+- **Theme Switching**: [next-themes](https://github.com/pacocoursey/next-themes)
+- **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
+- **Command Palette**: [cmdk](https://cmdk.paco.sh/) - Fast command palette
+
+---
+
+## 📦 Installation
 
 ### Prerequisites
-- **Node.js 18+**
-- **npm** or **yarn**
+- Node.js 18+ 
+- npm or yarn package manager
 
-### Installation
+### Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ayvazekin/AYVEK-Image.git
+   cd AYVEK-Image
+   ```
+
+2. **Install dependencies**
+   ```bash
+   cd Web/A.Y.V.E.K_Web
+   npm install
+   ```
+
+3. **Configure environment variables**
+   ```bash
+   cp .env.example .env.local
+   ```
+   Add your API keys (Replicate, Supabase, etc.)
+
+4. **Run development server**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser
+
+---
+
+## 📝 Available Scripts
 
 ```bash
-cd Web/A.Y.V.E.K_Engine  # or A.Y.V.E.K_Web for the web version
-npm install
-npm run dev
+# Development
+npm run dev          # Start dev server on port 3000
+
+# Production
+npm run build        # Build for production
+npm start           # Start production server on port 3000
+
+# Code Quality
+npm run lint        # Run ESLint to check code quality
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+---
 
-## 🛠️ Available Scripts
-
-```bash
-npm run dev      # Start development server
-npm run build    # Build for production
-npm start        # Run production build
-npm run preview  # Preview production build
-npm run lint     # Run ESLint
-```
-
-## 📦 Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| **Framework** | Next.js 16, React 19 |
-| **Styling** | Tailwind CSS, CSS Modules |
-| **UI Components** | Radix UI (30+ components) |
-| **Forms** | React Hook Form + Zod |
-| **Image Processing** | Replicate API |
-| **Visualizations** | Recharts, Embla Carousel |
-| **Icons** | Lucide React |
-| **Animations** | Framer Motion (Web version) |
-| **Database** | Supabase (Web version) |
-| **Deployment** | Vercel |
-
-## 📁 Project Structure
+## 🏗️ Project Structure
 
 ```
 AYVEK-Image/
 ├── Web/
-│   ├── A.Y.V.E.K_Engine/    # Image processing engine
-│   └── A.Y.V.E.K_Web/       # Web interface with Supabase
-├── package.json
-└── tsconfig.json
+│   ├── A.Y.V.E.K_Engine/      # AI processing engine
+│   └── A.Y.V.E.K_Web/         # Main web application
+│       ├── app/               # Next.js app directory
+│       ├── components/        # React components
+│       ├── lib/              # Utility functions
+│       └── public/           # Static assets
+└── README.md
 ```
-
-## 🎨 UI Components
-
-The project includes a comprehensive Radix UI component library:
-
-- **Navigation** — Menu bar, navigation menu, dropdown
-- **Dialog** — Modals, alerts, popovers, tooltips
-- **Form Elements** — Inputs, selects, checkboxes, radio groups
-- **Data Display** — Tabs, accordions, progress bars, sliders
-- **Layout** — Scroll areas, separators, aspect ratios
-- **Custom** — Command palette (cmdk), toast notifications
-
-## 🔐 Environment Variables
-
-### A.Y.V.E.K_Web (with Supabase)
-```bash
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
-```
-
-## 🚀 Deployment
-
-Deploy to Vercel with a single click:
-
-```bash
-npm run build
-# Deploy dist/ folder to Vercel
-```
-
-Live demo: [ayvek-image.vercel.app](https://ayvek-image.vercel.app)
-
-## 📄 License
-
-MIT License — See LICENSE file for details
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report issues via [GitHub Issues](https://github.com/ayvazekin/AYVEK-Image/issues)
-- Submit pull requests with improvements
-- Suggest new features
 
 ---
 
-**Made with ❤️ by [ayvazekin](https://github.com/ayvazekin)**
+## 🚀 Deployment
+
+This project is optimized for deployment on **Vercel**:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fayvazekin%2FAYVEK-Image)
+
+### Manual Deployment
+1. Push to GitHub
+2. Connect repository to Vercel
+3. Configure environment variables in Vercel dashboard
+4. Deploy!
+
+**Live Demo**: https://ayvek-image.vercel.app
+
+---
+
+## 🎨 Customization
+
+### Theme Configuration
+Customize colors and design in:
+- `tailwind.config.js` - Tailwind CSS configuration
+- CSS variables for component colors
+
+### UI Components
+All Radix UI components are pre-configured and ready to use. Customize styling in component files within the components directory.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👤 Author
+
+**Ayvek**
+- GitHub: [@ayvazekin](https://github.com/ayvazekin)
+- Email: Contact via GitHub
+
+---
+
+## 🙏 Acknowledgments
+
+- [Vercel](https://vercel.com/) for hosting and analytics
+- [Replicate](https://replicate.com/) for AI model integration
+- [Radix UI](https://www.radix-ui.com/) for accessible components
+- All open-source contributors
+
+---
+
+## 📞 Support
+
+- 🐛 Found a bug? [Open an issue](https://github.com/ayvazekin/AYVEK-Image/issues)
+- 💡 Have a suggestion? [Start a discussion](https://github.com/ayvazekin/AYVEK-Image/discussions)
+- 📧 Need help? Reach out on GitHub
+
+---
+
+<div align="center">
+
+**Made with ❤️ by Ayvek**
+
+⭐ If you find this project useful, please consider giving it a star! ⭐
+
+</div>
